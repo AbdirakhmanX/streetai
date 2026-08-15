@@ -1,0 +1,10 @@
+[
+  { "id": "h1", "type": "pothole", "severity": "high", "description": "Deep pothole, right lane", "lat": 47.7601, "lng": -122.2054, "ts": "2026-07-10T14:35:00Z" },
+  { "id": "h2", "type": "pothole", "severity": "critical", "description": "Large pothole near intersection", "lat": 47.7615, "lng": -122.2071, "ts": "2026-07-18T09:12:00Z" },
+  { "id": "h3", "type": "debris", "severity": "medium", "description": "Fallen branch on shoulder", "lat": 47.7588, "lng": -122.2038, "ts": "2026-07-05T17:50:00Z" },
+  { "id": "h4", "type": "pothole", "severity": "low", "description": "Minor surface crack", "lat": 47.7622, "lng": -122.2009, "ts": "2026-06-28T11:20:00Z" },
+  { "id": "h5", "type": "pothole", "severity": "medium", "description": "Pothole forming near curb", "lat": 47.7579, "lng": -122.2091, "ts": "2026-07-15T08:05:00Z" },
+  { "id": "h6", "type": "debris", "severity": "high", "description": "Construction debris in lane", "lat": 47.7634, "lng": -122.2062, "ts": "2026-07-20T13:40:00Z" },
+  { "id": "h7", "type": "pothole", "severity": "critical", "description": "Deep pothole, repeat reports", "lat": 47.7595, "lng": -122.2003, "ts": "2026-07-21T10:15:00Z" },
+  { "id": "h8", "type": "pothole", "severity": "low", "description": "Small surface dip", "lat": 47.7608, "lng": -122.2116, "ts": "2026-06-15T09:00:00Z" }
+]

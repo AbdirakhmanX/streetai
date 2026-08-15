@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0D0D10;
+  color: #F5F3EE;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+/* Signature texture: a hex grid, echoing the heatmap's own hex-binned data layer.
+   Used sparingly as background texture, not decoration for its own sake. */
+.hex-field {
+  background-color: #0D0D10;
+  background-image:
+    linear-gradient(30deg, rgba(147,161,176,0.055) 12%, transparent 12.5%, transparent 87%, rgba(147,161,176,0.055) 87.5%, rgba(147,161,176,0.055)),
+    linear-gradient(150deg, rgba(147,161,176,0.055) 12%, transparent 12.5%, transparent 87%, rgba(147,161,176,0.055) 87.5%, rgba(147,161,176,0.055)),
+    linear-gradient(30deg, rgba(147,161,176,0.055) 12%, transparent 12.5%, transparent 87%, rgba(147,161,176,0.055) 87.5%, rgba(147,161,176,0.055)),
+    linear-gradient(150deg, rgba(147,161,176,0.055) 12%, transparent 12.5%, transparent 87%, rgba(147,161,176,0.055) 87.5%, rgba(147,161,176,0.055)),
+    linear-gradient(60deg, rgba(147,161,176,0.08) 25%, transparent 25.5%, transparent 75%, rgba(147,161,176,0.08) 75%, rgba(147,161,176,0.08)),
+    linear-gradient(60deg, rgba(147,161,176,0.08) 25%, transparent 25.5%, transparent 75%, rgba(147,161,176,0.08) 75%, rgba(147,161,176,0.08));
+  background-size: 80px 140px;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+/* Subtle scanning sweep in the hero — one deliberate motion moment, not ambient noise. */
+@keyframes scan-sweep {
+  0%   { transform: translateX(-10%); opacity: 0; }
+  10%  { opacity: 0.5; }
+  90%  { opacity: 0.5; }
+  100% { transform: translateX(110%); opacity: 0; }
+}
+.scan-line {
+  animation: scan-sweep 7s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scan-line { animation: none; display: none; }
+  html { scroll-behavior: auto; }
+}
+
+/* Visible keyboard focus, kept in the brand accent rather than the browser default */
+:focus-visible {
+  outline: 2px solid #F4B740;
+  outline-offset: 2px;
+}
