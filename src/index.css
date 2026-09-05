@@ -54,12 +54,18 @@ body {
   outline: 2px solid #F4B740;
   outline-offset: 2px;
 }
-/* Dark mode map popups */
-.leaflet-popup-content-wrapper,
-.leaflet-popup-tip {
+/* Dark mode map popups for MapTiler */
+.maplibregl-popup-content,
+.mapboxgl-popup-content {
   background-color: #1a1a1a !important;
   color: #F5F3EE !important;
+  border: 1px solid #333 !important;
+  border-radius: 8px !important;
 }
-.leaflet-popup-content p {
-  margin: 4px 0 !important;
+
+/* Color the little triangle pointer to match */
+.maplibregl-popup-tip,
+.mapboxgl-popup-tip {
+  border-top-color: #1a1a1a !important;
+  border-bottom-color: #1a1a1a !important;
 }
