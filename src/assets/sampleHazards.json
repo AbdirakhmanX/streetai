@@ -1,10 +1,3143 @@
 [
-  { "id": "h1", "type": "pothole", "severity": "high", "description": "Deep pothole, right lane", "lat": 47.7601, "lng": -122.2054, "ts": "2026-07-10T14:35:00Z" },
-  { "id": "h2", "type": "pothole", "severity": "critical", "description": "Large pothole near intersection", "lat": 47.7615, "lng": -122.2071, "ts": "2026-07-18T09:12:00Z" },
-  { "id": "h3", "type": "debris", "severity": "medium", "description": "Fallen branch on shoulder", "lat": 47.7588, "lng": -122.2038, "ts": "2026-07-05T17:50:00Z" },
-  { "id": "h4", "type": "pothole", "severity": "low", "description": "Minor surface crack", "lat": 47.7622, "lng": -122.2009, "ts": "2026-06-28T11:20:00Z" },
-  { "id": "h5", "type": "pothole", "severity": "medium", "description": "Pothole forming near curb", "lat": 47.7579, "lng": -122.2091, "ts": "2026-07-15T08:05:00Z" },
-  { "id": "h6", "type": "debris", "severity": "high", "description": "Construction debris in lane", "lat": 47.7634, "lng": -122.2062, "ts": "2026-07-20T13:40:00Z" },
-  { "id": "h7", "type": "pothole", "severity": "critical", "description": "Deep pothole, repeat reports", "lat": 47.7595, "lng": -122.2003, "ts": "2026-07-21T10:15:00Z" },
-  { "id": "h8", "type": "pothole", "severity": "low", "description": "Small surface dip", "lat": 47.7608, "lng": -122.2116, "ts": "2026-06-15T09:00:00Z" }
+  {
+    "id": "frame_7569",
+    "type": "pothole",
+    "severity": "medium",
+    "description": "Hazard detected at frame 7569",
+    "lat": 47.762226,
+    "lng": -122.205393,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_7598",
+    "type": "pothole",
+    "severity": "medium",
+    "description": "Hazard detected at frame 7598",
+    "lat": 47.762624,
+    "lng": -122.20561,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_7859",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 7859",
+    "lat": 47.764099,
+    "lng": -122.209064,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_7888",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 7888",
+    "lat": 47.764138,
+    "lng": -122.209314,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_7917",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 7917",
+    "lat": 47.764338,
+    "lng": -122.209456,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_7946",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 7946",
+    "lat": 47.764624,
+    "lng": -122.209466,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_7975",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 7975",
+    "lat": 47.764848,
+    "lng": -122.209808,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_8555",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 8555",
+    "lat": 47.769554,
+    "lng": -122.213757,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_8584",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 8584",
+    "lat": 47.769922,
+    "lng": -122.214183,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_8613",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 8613",
+    "lat": 47.770272,
+    "lng": -122.214298,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_8642",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 8642",
+    "lat": 47.77042,
+    "lng": -122.214321,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_8665",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 8665",
+    "lat": 47.770535,
+    "lng": -122.214339,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_8671",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 8671",
+    "lat": 47.770565,
+    "lng": -122.214343,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_8700",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 8700",
+    "lat": 47.770724,
+    "lng": -122.214384,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_9120",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 9120",
+    "lat": 47.774545,
+    "lng": -122.21314,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_9135",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 9135",
+    "lat": 47.774545,
+    "lng": -122.213131,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_9164",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 9164",
+    "lat": 47.774541,
+    "lng": -122.213015,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_9367",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 9367",
+    "lat": 47.776279,
+    "lng": -122.212413,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_9425",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 9425",
+    "lat": 47.776607,
+    "lng": -122.21242,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_9454",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 9454",
+    "lat": 47.776908,
+    "lng": -122.212206,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_9483",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 9483",
+    "lat": 47.776908,
+    "lng": -122.212133,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_9512",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 9512",
+    "lat": 47.777258,
+    "lng": -122.211735,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_9541",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 9541",
+    "lat": 47.77748,
+    "lng": -122.211741,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_9570",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 9570",
+    "lat": 47.777593,
+    "lng": -122.211744,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_9599",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 9599",
+    "lat": 47.777691,
+    "lng": -122.211746,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_9628",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 9628",
+    "lat": 47.777856,
+    "lng": -122.211751,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_9657",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 9657",
+    "lat": 47.778408,
+    "lng": -122.210921,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_9686",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 9686",
+    "lat": 47.778403,
+    "lng": -122.210816,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_9715",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 9715",
+    "lat": 47.778397,
+    "lng": -122.210691,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_9744",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 9744",
+    "lat": 47.778893,
+    "lng": -122.210933,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_9773",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 9773",
+    "lat": 47.779096,
+    "lng": -122.210818,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_9802",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 9802",
+    "lat": 47.779256,
+    "lng": -122.210818,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_9860",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 9860",
+    "lat": 47.779549,
+    "lng": -122.210781,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_9918",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 9918",
+    "lat": 47.780525,
+    "lng": -122.210867,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_10034",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 10034",
+    "lat": 47.781281,
+    "lng": -122.211525,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_10121",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 10121",
+    "lat": 47.781862,
+    "lng": -122.211438,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_10237",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 10237",
+    "lat": 47.782685,
+    "lng": -122.211422,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_10266",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 10266",
+    "lat": 47.782804,
+    "lng": -122.211411,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_10295",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 10295",
+    "lat": 47.783208,
+    "lng": -122.21219,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_10382",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 10382",
+    "lat": 47.78414,
+    "lng": -122.211703,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_10469",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 10469",
+    "lat": 47.784783,
+    "lng": -122.212802,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_10498",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 10498",
+    "lat": 47.785035,
+    "lng": -122.212814,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_10556",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 10556",
+    "lat": 47.7855,
+    "lng": -122.212836,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_10614",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 10614",
+    "lat": 47.786103,
+    "lng": -122.212505,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_10701",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 10701",
+    "lat": 47.786665,
+    "lng": -122.212203,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_11136",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 11136",
+    "lat": 47.788991,
+    "lng": -122.210466,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_11165",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 11165",
+    "lat": 47.788991,
+    "lng": -122.210127,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_11194",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 11194",
+    "lat": 47.789093,
+    "lng": -122.209877,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_13746",
+    "type": "pothole",
+    "severity": "medium",
+    "description": "Hazard detected at frame 13746",
+    "lat": 47.791349,
+    "lng": -122.205808,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_13804",
+    "type": "pothole",
+    "severity": "medium",
+    "description": "Hazard detected at frame 13804",
+    "lat": 47.791567,
+    "lng": -122.205182,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_14007",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 14007",
+    "lat": 47.792552,
+    "lng": -122.204246,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_14123",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 14123",
+    "lat": 47.793563,
+    "lng": -122.203151,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_14819",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 14819",
+    "lat": 47.794941,
+    "lng": -122.196181,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_14848",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 14848",
+    "lat": 47.794997,
+    "lng": -122.19622,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_14906",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 14906",
+    "lat": 47.794969,
+    "lng": -122.195727,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_14935",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 14935",
+    "lat": 47.795008,
+    "lng": -122.195748,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_14964",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 14964",
+    "lat": 47.794986,
+    "lng": -122.195736,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_14993",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 14993",
+    "lat": 47.795034,
+    "lng": -122.195762,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_15022",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 15022",
+    "lat": 47.794991,
+    "lng": -122.195739,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_15051",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 15051",
+    "lat": 47.795037,
+    "lng": -122.195763,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_15080",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 15080",
+    "lat": 47.795013,
+    "lng": -122.19575,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_15109",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 15109",
+    "lat": 47.794965,
+    "lng": -122.196198,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_15138",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 15138",
+    "lat": 47.795037,
+    "lng": -122.195763,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_15167",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 15167",
+    "lat": 47.794983,
+    "lng": -122.196211,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_15196",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 15196",
+    "lat": 47.795025,
+    "lng": -122.195757,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_15225",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 15225",
+    "lat": 47.795048,
+    "lng": -122.195769,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_15254",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 15254",
+    "lat": 47.795029,
+    "lng": -122.195759,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_15283",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 15283",
+    "lat": 47.795024,
+    "lng": -122.195756,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_15892",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 15892",
+    "lat": 47.794985,
+    "lng": -122.191806,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_16124",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 16124",
+    "lat": 47.795054,
+    "lng": -122.194832,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_16182",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 16182",
+    "lat": 47.795054,
+    "lng": -122.194832,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_16211",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 16211",
+    "lat": 47.795054,
+    "lng": -122.194832,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_18096",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 18096",
+    "lat": 47.794649,
+    "lng": -122.189902,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_18212",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 18212",
+    "lat": 47.794489,
+    "lng": -122.190859,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_18531",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 18531",
+    "lat": 47.79503,
+    "lng": -122.187935,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_18560",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 18560",
+    "lat": 47.795024,
+    "lng": -122.187935,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_18676",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 18676",
+    "lat": 47.794986,
+    "lng": -122.185939,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_18734",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 18734",
+    "lat": 47.794986,
+    "lng": -122.185939,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_18763",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 18763",
+    "lat": 47.794985,
+    "lng": -122.185939,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_18792",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 18792",
+    "lat": 47.794986,
+    "lng": -122.185939,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_18821",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 18821",
+    "lat": 47.794984,
+    "lng": -122.185939,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_19314",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 19314",
+    "lat": 47.795005,
+    "lng": -122.183616,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_19343",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 19343",
+    "lat": 47.794994,
+    "lng": -122.183617,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_20126",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 20126",
+    "lat": 47.795044,
+    "lng": -122.179279,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_20155",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 20155",
+    "lat": 47.795048,
+    "lng": -122.17963,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_20184",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 20184",
+    "lat": 47.795044,
+    "lng": -122.179287,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_20213",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 20213",
+    "lat": 47.794999,
+    "lng": -122.17952,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_20242",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 20242",
+    "lat": 47.795043,
+    "lng": -122.179198,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_20300",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 20300",
+    "lat": 47.795001,
+    "lng": -122.17952,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_20329",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 20329",
+    "lat": 47.795045,
+    "lng": -122.179342,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_20358",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 20358",
+    "lat": 47.795046,
+    "lng": -122.179438,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_20387",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 20387",
+    "lat": 47.795044,
+    "lng": -122.179268,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_20416",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 20416",
+    "lat": 47.795002,
+    "lng": -122.17952,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_20445",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 20445",
+    "lat": 47.795044,
+    "lng": -122.179222,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_20474",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 20474",
+    "lat": 47.795045,
+    "lng": -122.17932,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_20503",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 20503",
+    "lat": 47.795044,
+    "lng": -122.179225,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_20532",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 20532",
+    "lat": 47.795044,
+    "lng": -122.179268,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_20590",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 20590",
+    "lat": 47.795002,
+    "lng": -122.17952,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_21750",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 21750",
+    "lat": 47.79497,
+    "lng": -122.175376,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_22388",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 22388",
+    "lat": 47.795056,
+    "lng": -122.180437,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_22446",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 22446",
+    "lat": 47.795001,
+    "lng": -122.180239,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_22475",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 22475",
+    "lat": 47.795056,
+    "lng": -122.180428,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_22533",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 22533",
+    "lat": 47.795048,
+    "lng": -122.179596,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_24679",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 24679",
+    "lat": 47.794991,
+    "lng": -122.182521,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_24737",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 24737",
+    "lat": 47.794999,
+    "lng": -122.182521,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_25694",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 25694",
+    "lat": 47.79501,
+    "lng": -122.187936,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_25723",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 25723",
+    "lat": 47.795016,
+    "lng": -122.187936,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_25752",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 25752",
+    "lat": 47.79501,
+    "lng": -122.187936,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_25781",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 25781",
+    "lat": 47.795019,
+    "lng": -122.187935,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_25810",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 25810",
+    "lat": 47.795011,
+    "lng": -122.187936,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_25839",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 25839",
+    "lat": 47.795019,
+    "lng": -122.187935,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_25868",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 25868",
+    "lat": 47.79501,
+    "lng": -122.187936,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_25897",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 25897",
+    "lat": 47.795015,
+    "lng": -122.187936,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_27289",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 27289",
+    "lat": 47.794482,
+    "lng": -122.19082,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_27376",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 27376",
+    "lat": 47.794649,
+    "lng": -122.189902,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_27492",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 27492",
+    "lat": 47.795023,
+    "lng": -122.191802,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_27521",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 27521",
+    "lat": 47.795033,
+    "lng": -122.191801,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_27579",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 27579",
+    "lat": 47.794994,
+    "lng": -122.191805,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_28739",
+    "type": "pothole",
+    "severity": "medium",
+    "description": "Hazard detected at frame 28739",
+    "lat": 47.795005,
+    "lng": -122.185938,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_28942",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 28942",
+    "lat": 47.794948,
+    "lng": -122.188002,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_28971",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 28971",
+    "lat": 47.795008,
+    "lng": -122.187938,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_29000",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 29000",
+    "lat": 47.794948,
+    "lng": -122.188002,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_29058",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 29058",
+    "lat": 47.79501,
+    "lng": -122.187936,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_29087",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 29087",
+    "lat": 47.794972,
+    "lng": -122.187976,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_29696",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 29696",
+    "lat": 47.795063,
+    "lng": -122.18098,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_29783",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 29783",
+    "lat": 47.794993,
+    "lng": -122.181104,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_29841",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 29841",
+    "lat": 47.795062,
+    "lng": -122.180965,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_30247",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 30247",
+    "lat": 47.795024,
+    "lng": -122.183614,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_30334",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 30334",
+    "lat": 47.795003,
+    "lng": -122.182521,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_30421",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 30421",
+    "lat": 47.79499,
+    "lng": -122.182521,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_31088",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 31088",
+    "lat": 47.795001,
+    "lng": -122.17952,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_31117",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 31117",
+    "lat": 47.795049,
+    "lng": -122.179759,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_31146",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 31146",
+    "lat": 47.794999,
+    "lng": -122.17952,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_31175",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 31175",
+    "lat": 47.795049,
+    "lng": -122.179773,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_31204",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 31204",
+    "lat": 47.795046,
+    "lng": -122.179441,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_31233",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 31233",
+    "lat": 47.79505,
+    "lng": -122.179819,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_31262",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 31262",
+    "lat": 47.794998,
+    "lng": -122.17952,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_31291",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 31291",
+    "lat": 47.795042,
+    "lng": -122.179077,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_31320",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 31320",
+    "lat": 47.794754,
+    "lng": -122.178826,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_31349",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 31349",
+    "lat": 47.794517,
+    "lng": -122.178513,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_31378",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 31378",
+    "lat": 47.794502,
+    "lng": -122.178276,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_31407",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 31407",
+    "lat": 47.795027,
+    "lng": -122.177711,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_32190",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 32190",
+    "lat": 47.794486,
+    "lng": -122.173439,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_32248",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 32248",
+    "lat": 47.794177,
+    "lng": -122.173048,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_32364",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 32364",
+    "lat": 47.793092,
+    "lng": -122.172011,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_32799",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 32799",
+    "lat": 47.790742,
+    "lng": -122.166687,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_36337",
+    "type": "pothole",
+    "severity": "medium",
+    "description": "Hazard detected at frame 36337",
+    "lat": 47.787761,
+    "lng": -122.166193,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_36917",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 36917",
+    "lat": 47.791156,
+    "lng": -122.165318,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_36946",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 36946",
+    "lat": 47.791156,
+    "lng": -122.165318,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_37004",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 37004",
+    "lat": 47.791156,
+    "lng": -122.165318,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_38425",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 38425",
+    "lat": 47.788457,
+    "lng": -122.166326,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_38454",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 38454",
+    "lat": 47.788457,
+    "lng": -122.166326,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_38483",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 38483",
+    "lat": 47.787816,
+    "lng": -122.166207,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_38512",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 38512",
+    "lat": 47.788457,
+    "lng": -122.166326,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_38541",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 38541",
+    "lat": 47.787816,
+    "lng": -122.166207,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_38570",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 38570",
+    "lat": 47.788457,
+    "lng": -122.166326,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_38599",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 38599",
+    "lat": 47.787816,
+    "lng": -122.166207,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_38628",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 38628",
+    "lat": 47.788457,
+    "lng": -122.166326,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_38657",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 38657",
+    "lat": 47.787792,
+    "lng": -122.166196,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_39469",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 39469",
+    "lat": 47.790712,
+    "lng": -122.164985,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_39672",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 39672",
+    "lat": 47.788457,
+    "lng": -122.166326,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_39846",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 39846",
+    "lat": 47.790712,
+    "lng": -122.164973,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_39933",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 39933",
+    "lat": 47.789316,
+    "lng": -122.166321,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_40020",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 40020",
+    "lat": 47.790712,
+    "lng": -122.164978,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_40194",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 40194",
+    "lat": 47.787816,
+    "lng": -122.166207,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_40339",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 40339",
+    "lat": 47.788457,
+    "lng": -122.166326,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_41528",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 41528",
+    "lat": 47.794496,
+    "lng": -122.166692,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_42224",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 42224",
+    "lat": 47.794896,
+    "lng": -122.170041,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_42311",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 42311",
+    "lat": 47.794996,
+    "lng": -122.167644,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_42369",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 42369",
+    "lat": 47.794411,
+    "lng": -122.168744,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_42427",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 42427",
+    "lat": 47.794998,
+    "lng": -122.167644,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_42456",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 42456",
+    "lat": 47.794996,
+    "lng": -122.167644,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_43065",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 43065",
+    "lat": 47.793897,
+    "lng": -122.165242,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_43384",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 43384",
+    "lat": 47.794866,
+    "lng": -122.167646,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_43471",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 43471",
+    "lat": 47.794414,
+    "lng": -122.168876,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_43964",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 43964",
+    "lat": 47.793737,
+    "lng": -122.175108,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_43993",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 43993",
+    "lat": 47.793661,
+    "lng": -122.175112,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_44022",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 44022",
+    "lat": 47.793132,
+    "lng": -122.176812,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_44080",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 44080",
+    "lat": 47.793132,
+    "lng": -122.176812,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_44167",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 44167",
+    "lat": 47.793139,
+    "lng": -122.177796,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_44312",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 44312",
+    "lat": 47.792668,
+    "lng": -122.179023,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_44950",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 44950",
+    "lat": 47.788549,
+    "lng": -122.185866,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_44979",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 44979",
+    "lat": 47.788619,
+    "lng": -122.18614,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_45269",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 45269",
+    "lat": 47.78623,
+    "lng": -122.187896,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_45907",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 45907",
+    "lat": 47.782808,
+    "lng": -122.195453,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_47734",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 47734",
+    "lat": 47.77917,
+    "lng": -122.202346,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_48459",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 48459",
+    "lat": 47.775971,
+    "lng": -122.208086,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_49967",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 49967",
+    "lat": 47.770632,
+    "lng": -122.208936,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_51939",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 51939",
+    "lat": 47.764746,
+    "lng": -122.205279,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_52026",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 52026",
+    "lat": 47.764289,
+    "lng": -122.204678,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_52055",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 52055",
+    "lat": 47.76429,
+    "lng": -122.20446,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_52084",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 52084",
+    "lat": 47.76385,
+    "lng": -122.204005,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_52345",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 52345",
+    "lat": 47.763849,
+    "lng": -122.202126,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_52432",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 52432",
+    "lat": 47.763602,
+    "lng": -122.20158,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_52490",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 52490",
+    "lat": 47.76283,
+    "lng": -122.20104,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_52606",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 52606",
+    "lat": 47.762812,
+    "lng": -122.200054,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_52722",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 52722",
+    "lat": 47.76197,
+    "lng": -122.198624,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_52751",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 52751",
+    "lat": 47.761745,
+    "lng": -122.198259,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_53012",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 53012",
+    "lat": 47.759773,
+    "lng": -122.195395,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_53099",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 53099",
+    "lat": 47.759768,
+    "lng": -122.194994,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_53128",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 53128",
+    "lat": 47.759768,
+    "lng": -122.194994,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_53476",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 53476",
+    "lat": 47.756772,
+    "lng": -122.191947,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_53563",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 53563",
+    "lat": 47.756319,
+    "lng": -122.191531,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_54114",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 54114",
+    "lat": 47.753468,
+    "lng": -122.185812,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_54143",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 54143",
+    "lat": 47.753253,
+    "lng": -122.184688,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_54201",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 54201",
+    "lat": 47.752944,
+    "lng": -122.18458,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_54259",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 54259",
+    "lat": 47.753183,
+    "lng": -122.183741,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_54984",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 54984",
+    "lat": 47.752192,
+    "lng": -122.175882,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_55680",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 55680",
+    "lat": 47.750692,
+    "lng": -122.169692,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_56724",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 56724",
+    "lat": 47.749638,
+    "lng": -122.165489,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_58725",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 58725",
+    "lat": 47.7511,
+    "lng": -122.164676,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_60262",
+    "type": "pothole",
+    "severity": "medium",
+    "description": "Hazard detected at frame 60262",
+    "lat": 47.749638,
+    "lng": -122.165489,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_60668",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 60668",
+    "lat": 47.749695,
+    "lng": -122.165527,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_60784",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 60784",
+    "lat": 47.749658,
+    "lng": -122.165502,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_60813",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 60813",
+    "lat": 47.749651,
+    "lng": -122.165498,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_60929",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 60929",
+    "lat": 47.74985,
+    "lng": -122.16563,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_60958",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 60958",
+    "lat": 47.74978,
+    "lng": -122.165584,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_61103",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 61103",
+    "lat": 47.749878,
+    "lng": -122.16565,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_61306",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 61306",
+    "lat": 47.749638,
+    "lng": -122.165489,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_61451",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 61451",
+    "lat": 47.749638,
+    "lng": -122.165489,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_61480",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 61480",
+    "lat": 47.749638,
+    "lng": -122.165489,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_61596",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 61596",
+    "lat": 47.749967,
+    "lng": -122.165709,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_61625",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 61625",
+    "lat": 47.749877,
+    "lng": -122.165649,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_61654",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 61654",
+    "lat": 47.749967,
+    "lng": -122.165709,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_62466",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 62466",
+    "lat": 47.747099,
+    "lng": -122.16456,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_62727",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 62727",
+    "lat": 47.747452,
+    "lng": -122.165176,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_64206",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 64206",
+    "lat": 47.747085,
+    "lng": -122.164534,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_64235",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 64235",
+    "lat": 47.747108,
+    "lng": -122.164578,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_64583",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 64583",
+    "lat": 47.746987,
+    "lng": -122.164348,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_64815",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 64815",
+    "lat": 47.746995,
+    "lng": -122.164363,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_64844",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 64844",
+    "lat": 47.746973,
+    "lng": -122.16432,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_64902",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 64902",
+    "lat": 47.746982,
+    "lng": -122.164338,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_64931",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 64931",
+    "lat": 47.746966,
+    "lng": -122.164308,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_65047",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 65047",
+    "lat": 47.747084,
+    "lng": -122.164533,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_66091",
+    "type": "pothole",
+    "severity": "medium",
+    "description": "Hazard detected at frame 66091",
+    "lat": 47.746503,
+    "lng": -122.163398,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_67715",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 67715",
+    "lat": 47.746601,
+    "lng": -122.163591,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_68353",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 68353",
+    "lat": 47.746746,
+    "lng": -122.163878,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_68382",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 68382",
+    "lat": 47.746735,
+    "lng": -122.163857,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_68440",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 68440",
+    "lat": 47.746767,
+    "lng": -122.16392,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_68556",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 68556",
+    "lat": 47.746739,
+    "lng": -122.163864,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_68614",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 68614",
+    "lat": 47.74671,
+    "lng": -122.163808,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_68730",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 68730",
+    "lat": 47.746746,
+    "lng": -122.163877,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_69049",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 69049",
+    "lat": 47.7471,
+    "lng": -122.164562,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_70412",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 70412",
+    "lat": 47.746498,
+    "lng": -122.163388,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_70441",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 70441",
+    "lat": 47.746498,
+    "lng": -122.163388,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_70470",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 70470",
+    "lat": 47.746498,
+    "lng": -122.163388,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_70499",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 70499",
+    "lat": 47.746498,
+    "lng": -122.163388,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_70586",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 70586",
+    "lat": 47.746498,
+    "lng": -122.163388,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_70644",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 70644",
+    "lat": 47.746498,
+    "lng": -122.163388,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_71224",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 71224",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_72413",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 72413",
+    "lat": 47.746498,
+    "lng": -122.163388,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_72471",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 72471",
+    "lat": 47.743898,
+    "lng": -122.169313,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_72558",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 72558",
+    "lat": 47.746498,
+    "lng": -122.163388,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_72616",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 72616",
+    "lat": 47.746498,
+    "lng": -122.163388,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_72761",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 72761",
+    "lat": 47.746618,
+    "lng": -122.163625,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_72848",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 72848",
+    "lat": 47.746498,
+    "lng": -122.163388,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_72964",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 72964",
+    "lat": 47.746739,
+    "lng": -122.163864,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_72993",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 72993",
+    "lat": 47.746685,
+    "lng": -122.163758,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_73341",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 73341",
+    "lat": 47.74692,
+    "lng": -122.164218,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_73428",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 73428",
+    "lat": 47.746856,
+    "lng": -122.164094,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_73660",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 73660",
+    "lat": 47.74686,
+    "lng": -122.164101,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_74791",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 74791",
+    "lat": 47.747218,
+    "lng": -122.164785,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_75545",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 75545",
+    "lat": 47.746498,
+    "lng": -122.163388,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_75574",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 75574",
+    "lat": 47.746498,
+    "lng": -122.163388,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_76618",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 76618",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_76734",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 76734",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_76763",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 76763",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_76879",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 76879",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_76908",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 76908",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_76966",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 76966",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_76995",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 76995",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77024",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77024",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77053",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77053",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77256",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77256",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77285",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77285",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77314",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77314",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77343",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77343",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77372",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77372",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77401",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77401",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77488",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77488",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77517",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77517",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77546",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77546",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77575",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77575",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77604",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77604",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77633",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77633",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77662",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77662",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77691",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77691",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77720",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77720",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77749",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77749",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77778",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77778",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77865",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77865",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77923",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77923",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77952",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77952",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_77981",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 77981",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_78068",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 78068",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_78097",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 78097",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_78184",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 78184",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_78213",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 78213",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_78271",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 78271",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_78358",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 78358",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_78387",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 78387",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_78416",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 78416",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_78445",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 78445",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_78474",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 78474",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_78503",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 78503",
+    "lat": 47.74029,
+    "lng": -122.166335,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_78706",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 78706",
+    "lat": 47.746498,
+    "lng": -122.163388,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_78793",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 78793",
+    "lat": 47.743898,
+    "lng": -122.169313,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_80156",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 80156",
+    "lat": 47.747991,
+    "lng": -122.165117,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_80185",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 80185",
+    "lat": 47.747862,
+    "lng": -122.164919,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_80214",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 80214",
+    "lat": 47.747994,
+    "lng": -122.165122,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_80243",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 80243",
+    "lat": 47.747893,
+    "lng": -122.164967,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_80272",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 80272",
+    "lat": 47.748081,
+    "lng": -122.16524,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_80301",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 80301",
+    "lat": 47.748214,
+    "lng": -122.165387,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_80330",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 80330",
+    "lat": 47.748411,
+    "lng": -122.165378,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_80388",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 80388",
+    "lat": 47.748594,
+    "lng": -122.165762,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_80446",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 80446",
+    "lat": 47.748919,
+    "lng": -122.166685,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_80475",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 80475",
+    "lat": 47.749073,
+    "lng": -122.166779,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_80649",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 80649",
+    "lat": 47.749701,
+    "lng": -122.167403,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_82128",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 82128",
+    "lat": 47.750716,
+    "lng": -122.17586,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_82331",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 82331",
+    "lat": 47.751449,
+    "lng": -122.177948,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_82360",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 82360",
+    "lat": 47.751395,
+    "lng": -122.178195,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_82969",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 82969",
+    "lat": 47.753545,
+    "lng": -122.183758,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_84216",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 84216",
+    "lat": 47.754122,
+    "lng": -122.191797,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_84274",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 84274",
+    "lat": 47.754199,
+    "lng": -122.192257,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_84332",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 84332",
+    "lat": 47.754514,
+    "lng": -122.193134,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_84419",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 84419",
+    "lat": 47.754949,
+    "lng": -122.193811,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_84506",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 84506",
+    "lat": 47.755057,
+    "lng": -122.194468,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_84622",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 84622",
+    "lat": 47.755578,
+    "lng": -122.195443,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_84680",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 84680",
+    "lat": 47.755945,
+    "lng": -122.196059,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_86565",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 86565",
+    "lat": 47.759901,
+    "lng": -122.199951,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_86594",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 86594",
+    "lat": 47.760156,
+    "lng": -122.200366,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_86739",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 86739",
+    "lat": 47.761442,
+    "lng": -122.201288,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_86855",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 86855",
+    "lat": 47.762033,
+    "lng": -122.201655,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_89755",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 89755",
+    "lat": 47.766497,
+    "lng": -122.204212,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_90045",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 90045",
+    "lat": 47.768898,
+    "lng": -122.206382,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_90132",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 90132",
+    "lat": 47.769659,
+    "lng": -122.20694,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_90161",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 90161",
+    "lat": 47.769847,
+    "lng": -122.207323,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_90277",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 90277",
+    "lat": 47.771484,
+    "lng": -122.207757,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_90683",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 90683",
+    "lat": 47.775136,
+    "lng": -122.208963,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_91698",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 91698",
+    "lat": 47.781008,
+    "lng": -122.213247,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_91727",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 91727",
+    "lat": 47.781226,
+    "lng": -122.213673,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_92046",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 92046",
+    "lat": 47.782515,
+    "lng": -122.213301,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_92597",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 92597",
+    "lat": 47.788235,
+    "lng": -122.210603,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_92626",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 92626",
+    "lat": 47.788925,
+    "lng": -122.210799,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_92655",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 92655",
+    "lat": 47.78895,
+    "lng": -122.21074,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_92684",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 92684",
+    "lat": 47.788964,
+    "lng": -122.210707,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_92713",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 92713",
+    "lat": 47.788991,
+    "lng": -122.210644,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_94888",
+    "type": "line_erased",
+    "severity": "medium",
+    "description": "Hazard detected at frame 94888",
+    "lat": 47.794484,
+    "lng": -122.213243,
+    "ts": "2026-09-05T12:00:00Z"
+  },
+  {
+    "id": "frame_95265",
+    "type": "debris",
+    "severity": "medium",
+    "description": "Hazard detected at frame 95265",
+    "lat": 47.794985,
+    "lng": -122.212932,
+    "ts": "2026-09-05T12:00:00Z"
+  }
 ]
