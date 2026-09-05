@@ -54,3 +54,12 @@ body {
   outline: 2px solid #F4B740;
   outline-offset: 2px;
 }
+/* Dark mode map popups */
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background-color: #1a1a1a !important;
+  color: #F5F3EE !important;
+}
+.leaflet-popup-content p {
+  margin: 4px 0 !important;
+}
