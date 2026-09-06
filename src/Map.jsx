@@ -365,7 +365,7 @@ export default function Map({ mode: initialMode, className = "h-[70vh]" }) {
 
       
 
-      map.on("click", "hazard-points", (e) => {
+    map.on("click", "hazard-points", (e) => {
         const props = e.features?.[0]?.properties || {};
         
         let labels = [];
@@ -376,45 +376,40 @@ export default function Map({ mode: initialMode, className = "h-[70vh]" }) {
         }
 
         const imageHtml = props.image ? `
-          <div style="position: relative; width: 100%; max-width: 400px; margin-top: 10px;">
-            <img src="${props.image}" style="width: 100%; border-radius: 8px; display: block;" />
+          <div style="position: relative; width: 440px; height: 247px; margin-top: 10px; background: #000; border-radius: 8px; overflow: hidden;">
+            <img src="${props.image}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: fill; display: block;" />
+            
+            <!-- 100% Accurate SVG Polygon Overlay -->
+            <svg viewBox="0 0 1 1" preserveAspectRatio="none" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
+              ${labels.map(lbl => {
+                if (!lbl.polygon || !lbl.polygon.length) return '';
+                const pts = lbl.polygon.map(pt => `${pt[0]},${pt[1]}`).join(' ');
+                const color = lbl.color || '#ff3b30';
+                return `<polygon points="${pts}" fill="${color}44" stroke="${color}" stroke-width="0.005" />`;
+              }).join('')}
+            </svg>
+
+            <!-- Floating Labels -->
             ${labels.map(lbl => {
-              const [ymin, xmin, ymax, xmax] = lbl.bbox || [0,0,0,0];
+              const [xmin, ymin, xmax, ymax] = lbl.bbox || [0,0,0,0];
               const borderColor = lbl.color || '#ff3b30';
+              const labelOnTop = ymin > 0.1;
               return `
-                <div style="
-                  position: absolute;
-                  top: ${ymin * 100}%;
-                  left: ${xmin * 100}%;
-                  width: ${(xmax - xmin) * 100}%;
-                  height: ${(ymax - ymin) * 100}%;
-                  border: 2px solid ${borderColor};
-                  background-color: ${borderColor}33;
-                  pointer-events: none;
-                ">
-                  <span style="
-                    position: absolute;
-                    top: -20px;
-                    left: 0;
-                    background-color: ${borderColor};
-                    color: white;
-                    font-size: 10px;
-                    font-weight: bold;
-                    padding: 1px 4px;
-                    border-radius: 3px;
-                    white-space: nowrap;
-                  ">${lbl.hazard || props.type}</span>
+                <div style="position: absolute; top: ${ymin * 100}%; left: ${xmin * 100}%; width: ${(xmax - xmin) * 100}%; height: ${(ymax - ymin) * 100}%; pointer-events: none;">
+                  <span style="position: absolute; ${labelOnTop ? 'bottom: 100%; margin-bottom: 4px;' : 'top: 100%; margin-top: 4px;'} left: 50%; transform: translateX(-50%); background-color: rgba(0,0,0,0.8); color: ${borderColor}; border: 1px solid ${borderColor}; font-size: 11px; font-weight: bold; padding: 2px 6px; border-radius: 4px; white-space: nowrap;">
+                    ${lbl.hazard || props.type}
+                  </span>
                 </div>
               `;
             }).join('')}
           </div>
         ` : '';
 
-        new maplibregl.Popup({ closeButton: true, maxWidth: '440px' })
+        new maplibregl.Popup({ closeButton: true, maxWidth: '480px' })
           .setLngLat(e.lngLat)
           .setHTML(`
             <div style="padding: 4px;">
-              <div style="font-weight:700;color:#C084FC;font-size:15px;margin-bottom:6px">${props.type || 'Hazard'}</div>
+              <div style="font-weight:700;color:#2563eb;font-size:16px;margin-bottom:6px">${props.type || 'Hazard'}</div>
               <div style="margin-bottom:6px"><b>Severity:</b>
                 <span style="color:${props.severity === "high" ? "#f87171" : props.severity === "medium" ? "#facc15" : props.severity === "critical" ? "#22d3ee" : "#4ade80"}">${props.severity || 'medium'}</span>
               </div>
