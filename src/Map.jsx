@@ -365,7 +365,7 @@ export default function Map({ mode: initialMode, className = "h-[70vh]" }) {
 
       
 
-      map.on("click", "hazard-points", (e) => {
+map.on("click", "hazard-points", (e) => {
         const props = e.features?.[0]?.properties || {};
         
         let labels = [];
@@ -376,8 +376,8 @@ export default function Map({ mode: initialMode, className = "h-[70vh]" }) {
         }
 
         const imageHtml = props.image ? `
-          <div style="position: relative; width: 100%; max-width: 400px; margin-top: 10px;">
-            <img src="${props.image}" style="width: 100%; border-radius: 8px; display: block;" />
+          <div style="position: relative; width: 100%; max-width: 420px; aspect-ratio: 960 / 540; margin-top: 10px; background: #000; border-radius: 8px; overflow: hidden;">
+            <img src="${props.image}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: block; object-fit: contain;" />
             ${labels.map(lbl => {
               const [ymin, xmin, ymax, xmax] = lbl.bbox || [0,0,0,0];
               const borderColor = lbl.color || '#ff3b30';
@@ -394,14 +394,14 @@ export default function Map({ mode: initialMode, className = "h-[70vh]" }) {
                 ">
                   <span style="
                     position: absolute;
-                    top: -20px;
+                    top: -18px;
                     left: 0;
                     background-color: ${borderColor};
                     color: white;
-                    font-size: 10px;
+                    font-size: 9px;
                     font-weight: bold;
                     padding: 1px 4px;
-                    border-radius: 3px;
+                    border-radius: 2px;
                     white-space: nowrap;
                   ">${lbl.hazard || props.type}</span>
                 </div>
@@ -410,7 +410,7 @@ export default function Map({ mode: initialMode, className = "h-[70vh]" }) {
           </div>
         ` : '';
 
-        new maplibregl.Popup({ closeButton: true, maxWidth: '440px' })
+        new maplibregl.Popup({ closeButton: true, maxWidth: '460px' })
           .setLngLat(e.lngLat)
           .setHTML(`
             <div style="padding: 4px;">
