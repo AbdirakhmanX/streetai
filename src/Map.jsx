@@ -368,6 +368,7 @@ export default function Map({ mode: initialMode, className = "h-[70vh]" }) {
       map.on("click", "hazard-points", (e) => {
         const props = e.features?.[0]?.properties || {};
         
+        // Parse labels/bounding boxes safely
         let labels = [];
         try {
           labels = typeof props.labels === "string" ? JSON.parse(props.labels) : (props.labels || []);
@@ -375,6 +376,7 @@ export default function Map({ mode: initialMode, className = "h-[70vh]" }) {
           labels = [];
         }
 
+        // Build the image snapshot and polygon bounding box overlays
         const imageHtml = props.image ? `
           <div style="position: relative; width: 100%; margin-top: 8px;">
             <img src="${props.image}" style="width: 100%; border-radius: 6px; display: block;" />
