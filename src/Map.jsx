@@ -368,7 +368,6 @@ export default function Map({ mode: initialMode, className = "h-[70vh]" }) {
       map.on("click", "hazard-points", (e) => {
         const props = e.features?.[0]?.properties || {};
         
-        // Parse labels/bounding boxes safely
         let labels = [];
         try {
           labels = typeof props.labels === "string" ? JSON.parse(props.labels) : (props.labels || []);
@@ -376,12 +375,12 @@ export default function Map({ mode: initialMode, className = "h-[70vh]" }) {
           labels = [];
         }
 
-        // Build the image snapshot and polygon bounding box overlays
         const imageHtml = props.image ? `
-          <div style="position: relative; width: 100%; margin-top: 8px;">
-            <img src="${props.image}" style="width: 100%; border-radius: 6px; display: block;" />
+          <div style="position: relative; width: 100%; max-width: 400px; margin-top: 10px;">
+            <img src="${props.image}" style="width: 100%; border-radius: 8px; display: block;" />
             ${labels.map(lbl => {
               const [ymin, xmin, ymax, xmax] = lbl.bbox || [0,0,0,0];
+              const borderColor = lbl.color || '#ff3b30';
               return `
                 <div style="
                   position: absolute;
@@ -389,24 +388,37 @@ export default function Map({ mode: initialMode, className = "h-[70vh]" }) {
                   left: ${xmin * 100}%;
                   width: ${(xmax - xmin) * 100}%;
                   height: ${(ymax - ymin) * 100}%;
-                  border: 2px solid ${lbl.color || '#ff3b30'};
-                  background-color: rgba(255, 59, 48, 0.25);
+                  border: 2px solid ${borderColor};
+                  background-color: ${borderColor}33;
                   pointer-events: none;
-                "></div>
+                ">
+                  <span style="
+                    position: absolute;
+                    top: -20px;
+                    left: 0;
+                    background-color: ${borderColor};
+                    color: white;
+                    font-size: 10px;
+                    font-weight: bold;
+                    padding: 1px 4px;
+                    border-radius: 3px;
+                    white-space: nowrap;
+                  ">${lbl.hazard || props.type}</span>
+                </div>
               `;
             }).join('')}
           </div>
         ` : '';
 
-        new maplibregl.Popup({ closeButton: true })
+        new maplibregl.Popup({ closeButton: true, maxWidth: '440px' })
           .setLngLat(e.lngLat)
           .setHTML(`
-            <div style="max-width: 260px;">
-              <div style="font-weight:700;color:#C084FC;font-size:14px;margin-bottom:4px">${props.type || 'Hazard'}</div>
-              <div style="margin-bottom:4px"><b>Severity:</b>
+            <div style="padding: 4px;">
+              <div style="font-weight:700;color:#C084FC;font-size:15px;margin-bottom:6px">${props.type || 'Hazard'}</div>
+              <div style="margin-bottom:6px"><b>Severity:</b>
                 <span style="color:${props.severity === "high" ? "#f87171" : props.severity === "medium" ? "#facc15" : props.severity === "critical" ? "#22d3ee" : "#4ade80"}">${props.severity || 'medium'}</span>
               </div>
-              <div style="opacity:0.9; margin-bottom:4px">${props.description || ""}</div>
+              <div style="opacity:0.9; margin-bottom:6px">${props.description || ""}</div>
               ${imageHtml}
             </div>`)
           .addTo(map);
