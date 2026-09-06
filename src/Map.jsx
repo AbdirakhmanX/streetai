@@ -367,16 +367,46 @@ export default function Map({ mode: initialMode, className = "h-[70vh]" }) {
 
       map.on("click", "hazard-points", (e) => {
         const props = e.features?.[0]?.properties || {};
+        
+        // Parse labels/bounding boxes if they exist in the feature properties
+        let labels = [];
+        try {
+          labels = typeof props.labels === "string" ? JSON.parse(props.labels) : (props.labels || []);
+        } catch {
+          labels = [];
+        }
+
+        const imageHtml = props.image ? `
+          <div style="position: relative; width: 100%; margin-top: 8px;">
+            <img src="${props.image}" style="width: 100%; border-radius: 6px; display: block;" />
+            ${labels.map(lbl => {
+              const [ymin, xmin, ymax, xmax] = lbl.bbox || [0,0,0,0];
+              return `
+                <div style="
+                  position: absolute;
+                  top: ${ymin * 100}%;
+                  left: ${xmin * 100}%;
+                  width: ${(xmax - xmin) * 100}%;
+                  height: ${(ymax - ymin) * 100}%;
+                  border: 2px solid ${lbl.color || '#ff3b30'};
+                  background-color: rgba(255, 59, 48, 0.25);
+                  pointer-events: none;
+                "></div>
+              `;
+            }).join('')}
+          </div>
+        ` : '';
+
         new maplibregl.Popup({ closeButton: true })
           .setLngLat(e.lngLat)
           .setHTML(`
-            <div>
-              <div style="font-weight:700;color:#C084FC;font-size:14px;margin-bottom:6px">${props.type}</div>
+            <div style="max-width: 260px;">
+              <div style="font-weight:700;color:#C084FC;font-size:14px;margin-bottom:4px">${props.type || 'Hazard'}</div>
               <div style="margin-bottom:4px"><b>Severity:</b>
-                <span style="color:${props.severity === "high" ? "#f87171" : props.severity === "medium" ? "#facc15" :
-                  props.severity === "critical" ? "#22d3ee" : "#4ade80"}">${props.severity}</span>
+                <span style="color:${props.severity === "high" ? "#f87171" : props.severity === "medium" ? "#facc15" : props.severity === "critical" ? "#22d3ee" : "#4ade80"}">${props.severity || 'medium'}</span>
               </div>
-              <div style="opacity:0.9">${props.description || ""}</div>
+              <div style="opacity:0.9; margin-bottom:4px">${props.description || ""}</div>
+              ${imageHtml}
             </div>`)
           .addTo(map);
       });
