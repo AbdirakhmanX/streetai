@@ -368,7 +368,6 @@ export default function Map({ mode: initialMode, className = "h-[70vh]" }) {
       map.on("click", "hazard-points", (e) => {
         const props = e.features?.[0]?.properties || {};
         
-        // Parse labels/bounding boxes if they exist in the feature properties
         let labels = [];
         try {
           labels = typeof props.labels === "string" ? JSON.parse(props.labels) : (props.labels || []);
