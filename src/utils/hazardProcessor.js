@@ -22,27 +22,26 @@ const SEVERITY_WEIGHT = {
  * }
  */
 export function hazardsToGeoJSON(hazards) {
-  const features = (hazards || []).map((h) => {
-    const ts = typeof h.ts === "string" ? new Date(h.ts).getTime() : h.ts;
-    const severity = (h.severity || "low").toLowerCase();
-    return {
+  return {
+    type: "FeatureCollection",
+    features: hazards.map(h => ({
       type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [h.lng, h.lat]
+      },
       properties: {
         id: h.id,
         type: h.type,
-        severity,
-        description: h.description || "",
-        ts,
-        weightBase: h.weightBase ?? SEVERITY_WEIGHT[severity] ?? 1,
-      },
-      geometry: {
-        type: "Point",
-        coordinates: [h.lng, h.lat],
-      },
-    };
-  });
-
-  return { type: "FeatureCollection", features };
+        severity: h.severity,
+        description: h.description,
+        ts: h.ts,
+        // Pass these through so the popup can read them!
+        image: h.image,
+        labels: h.labels ? JSON.stringify(h.labels) : "[]"
+      }
+    }))
+  };
 }
 
 /**
