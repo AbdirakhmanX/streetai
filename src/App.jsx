@@ -1,14 +1,15 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage.jsx";
-import DashboardPage from "./pages/DashboardPage.jsx";
+import Map from "./Map";
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/dashboard" element={<DashboardPage />} />
-      </Routes>
-    </BrowserRouter>
+    <main className="w-screen h-screen bg-[#F2EFE7] overflow-hidden m-0 p-0">
+      {/* Clean, custom-themed header hovering over the map */}
+      <header className="absolute top-4 left-1/2 -translate-x-1/2 z-30 pointer-events-none">
+        
+      </header>
+
+      {/* The Fullscreen Map */}
+      <Map className="w-full h-full" />
+    </main>
   );
 }
